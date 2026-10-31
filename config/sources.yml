@@ -1,0 +1,19 @@
+project:
+  state_fips: "06"
+  timezone: America/Los_Angeles
+  date_start: "2024-07-01"
+  date_end: "2024-07-07"
+
+sources:
+  firms:
+    system: nasa_firms
+    sensor: VIIRS_NOAA20_NRT
+    format: csv
+  aqs:
+    system: epa_aqs
+    parameter_code: "88101"
+    format: json
+  noaa:
+    system: noaa_cdo
+    dataset: GHCND
+    format: json

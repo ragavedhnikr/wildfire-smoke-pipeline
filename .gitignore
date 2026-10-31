@@ -1,0 +1,15 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+data/landing/*
+data/reference/counties/*
+*.csv
+*.json
+*.zip
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg

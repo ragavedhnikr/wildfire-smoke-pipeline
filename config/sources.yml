@@ -7,7 +7,7 @@ project:
 sources:
   firms:
     system: nasa_firms
-    sensor: VIIRS_NOAA20_NRT
+    sensor: VIIRS_NOAA20_SP
     format: csv
   aqs:
     system: epa_aqs
